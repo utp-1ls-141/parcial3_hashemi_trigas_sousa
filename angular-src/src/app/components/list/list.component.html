@@ -1,0 +1,11 @@
+<app-add></app-add>
+<mat-card>
+  <mat-card-header>
+    <div>
+      <mat-card-title>
+        <h2>Estudiantes registrados</h2>
+      </mat-card-title>
+    </div>
+  </mat-card-header>
+  <app-student *ngFor="let student of studentList" [student]=student></app-student>
+</mat-card>

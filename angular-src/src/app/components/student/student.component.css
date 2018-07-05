@@ -1,0 +1,13 @@
+mat-form-field {
+  display: block;
+  max-width: 250px;
+}
+
+.delete {
+  margin-left: 10px;
+}
+
+.delete:hover {
+  background-color: #ff0000;
+  color: #fff;
+}

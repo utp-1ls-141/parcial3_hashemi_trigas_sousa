@@ -1,0 +1,20 @@
+mat-list p {
+  font-weight: bold;
+}
+
+mat-form-field {
+  display: block;
+  max-width: 250px;
+}
+
+mat-card {
+  display: block;
+  margin: 50px auto;
+  width: auto;
+  max-width: 700px;
+}
+
+button {
+  background-color: #673ab7;
+  color: #fff;
+}

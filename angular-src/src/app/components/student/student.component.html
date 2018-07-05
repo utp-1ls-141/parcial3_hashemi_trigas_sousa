@@ -1,0 +1,31 @@
+<mat-accordion displayMode="flat">
+  <mat-expansion-panel [expanded]="false">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <strong>Nombre:&nbsp;</strong>{{student.firstName}}</mat-panel-title>
+      <mat-panel-title>
+        <strong>Apellido:&nbsp;</strong>{{student.lastName}}
+      </mat-panel-title>
+      <mat-panel-title>
+        <strong>Cedula:&nbsp;</strong>{{student.id}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <form>
+      <h4>Editar información:</h4>
+      <mat-form-field>
+        <input #firstName matInput placeholder="Nombre">
+      </mat-form-field>
+      <mat-form-field>
+        <input #lastName matInput placeholder="Apellido">
+      </mat-form-field>
+      <mat-form-field>
+        <input #id matInput placeholder="Cedula">
+      </mat-form-field>
+      <button color="primary" mat-raised-button (click)="updateFields(firstName.value,lastName.value,id.value)">
+        Guardar
+      </button>
+      <button class="delete" mat-raised-button (click)="deleteStudent(student.id)">
+        Eliminar
+      </button>
+    </form>
+  </mat-expansion-panel>

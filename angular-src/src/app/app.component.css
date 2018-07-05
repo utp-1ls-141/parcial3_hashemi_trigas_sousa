@@ -1,0 +1,11 @@
+.primary-text {
+  color: #ffe600;
+}
+
+mat-toolbar {
+  background-color: #673ab7;
+}
+
+mat-toolbar p {
+  color: #fff;
+}

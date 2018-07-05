@@ -1,0 +1,17 @@
+<mat-card color="primary">
+  <form>
+    <h4>Agregar un estudiante:</h4>
+    <mat-form-field>
+      <input #firstName matInput placeholder="Nombre">
+    </mat-form-field>
+    <mat-form-field>
+      <input #lastName matInput placeholder="Apellido">
+    </mat-form-field>
+    <mat-form-field>
+      <input #id matInput placeholder="Cedula">
+    </mat-form-field>
+    <button mat-raised-button (click)="addStudent(firstName.value,lastName.value,id.value) ">
+      Guardar
+    </button>
+  </form>
+</mat-card>

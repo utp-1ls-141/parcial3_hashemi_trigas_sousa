@@ -1,0 +1,9 @@
+mat-list p {
+  font-weight: bold;
+}
+
+mat-card {
+  margin: 50px auto;
+  width: auto;
+  max-width: 700px;
+}

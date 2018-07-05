@@ -1,0 +1,17 @@
+<mat-card>
+  <h2>Iniciar sesión</h2>
+  <mat-form-field>
+    <input #username matInput placeholder="Usuario">
+  </mat-form-field>
+  <mat-form-field>
+    <input #password type="password" matInput placeholder="Contraseña">
+  </mat-form-field>
+  <div class="inline-flex">
+    <button class="register" color="primary" mat-raised-button (click)="register(username.value,password.value)">
+      Registrarse
+    </button>
+    <button class="enter" color="primary" mat-raised-button (click)="login(username.value,password.value)">
+      Entrar
+    </button>
+  </div>
+</mat-card>

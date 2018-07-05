@@ -1,0 +1,30 @@
+mat-form-field {
+  display: block;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+button.enter {
+  margin: 10px;
+}
+
+button.register {
+  margin: 10px;
+  margin-left: 240px;
+}
+
+mat-card {
+  margin: 100px auto;
+  width: auto;
+  max-width: 450px;
+  height: 300px;
+}
+
+.inline-flex {
+  display: inline-flex;
+  margin-top: 50px;
+}

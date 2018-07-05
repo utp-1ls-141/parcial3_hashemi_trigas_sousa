@@ -1,0 +1,9 @@
+h2 {
+}
+
+mat-card {
+  margin: 100px auto;
+  width: auto;
+  max-width: 450px;
+  height: 50px;
+}
