@@ -1,1 +1,0 @@
-# parcial3_hashemi_trigas_sousa
